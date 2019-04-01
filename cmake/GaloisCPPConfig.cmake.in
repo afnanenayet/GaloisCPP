@@ -1,0 +1,5 @@
+if(NOT TARGET GaloisCPP::GaloisCPP)
+    include("${GaloisCPP_CMAKE_DIR}/GaloisCPPTargets.cmake")
+endif()
+
+set(GaloisCPP_LIBRARIES GaloisCPP::GaloisCPP)
